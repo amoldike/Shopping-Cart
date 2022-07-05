@@ -1,0 +1,10 @@
+.products {
+  width: 31%;
+  margin: 10px;
+  outline: none;
+  border-radius: 6px;
+}
+
+.card {
+  height: 24.5rem;
+}

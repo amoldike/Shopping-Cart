@@ -1,0 +1,49 @@
+.filters {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  flex-direction: column;
+  width: 24%;
+  margin: 5px;
+  height: 86vh;
+  position: sticky;
+  top: 5.3rem;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 30px;
+}
+.toggle {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 771px) {
+  .filters {
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+  }
+  .filters > span {
+    font-size: 10px;
+  }
+  .title {
+    font-size: 18px !important;
+  }
+  .productContainer {
+    display: flex;
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .search {
+    display: none !important;
+  }
+  .products {
+    width: 100%;
+  }
+} ;
