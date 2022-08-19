@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  background-attachment: fixed;
+  color: #354538;
+}
